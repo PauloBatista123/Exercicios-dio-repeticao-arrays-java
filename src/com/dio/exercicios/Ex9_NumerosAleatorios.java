@@ -25,5 +25,8 @@ public class Ex9_NumerosAleatorios {
         for (int num : numerosAleatorios ) {
             System.out.print(num + 1 + " ");
         }
+
+        int[][] numeros = {{4, 9, 8, 5}, {3, 0, 1, 5}, {1, 2, 7, 4}};
+        System.out.print(numeros[2][2]);
     }
 }
